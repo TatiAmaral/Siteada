@@ -39,8 +39,12 @@ p{
 }
 
 section{
-  max-width: 60%;
+  width: 60%;
   margin:0 auto; 
+}
+
+section section{
+  width: 100%;
 }
 
 img{
@@ -57,4 +61,26 @@ a{
   text-decoration: none;
   color: #99ffff;
   font-weight:700; 
+  
 }
+
+.principal a {
+  color:#FFF;
+  font-weight: normal;
+  text-decoration: underline;
+  }
+
+.principal {
+  background-color: #FF6CB5;
+    height: 40px;
+    max-width: 60%;
+    margin:0 auto
+
+}
+
+.principal li{
+  display: inline-block;
+  line-height: 2.5;
+  margin: 0 89px;
+}
+  
